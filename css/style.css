@@ -1,7 +1,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css';
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  background-color: var(--WHITE, #fff);
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -39,24 +39,24 @@ a {
   color: var(--CLOUD, #f4f4fd);
 }
 
-.menu__link {
+.menu--link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
 }
-.menu__link:hover {
+.menu--link:hover {
   color: var(--OCEAN, #404bbf);
 }
-.menu__link:focus {
+.menu--link:focus {
   color: var(--OCEAN, #404bbf);
 }
 
-.address__link {
+.address--link {
   color: var(--SLATE, #434455);
 }
-.address__link:hover {
+.address--link:hover {
   color: var(--OCEAN, #404bbf);
 }
-.address__link:focus {
+.address--link:focus {
   color: var(--OCEAN, #404bbf);
 }
 
@@ -64,7 +64,7 @@ a {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 
-.offer__ttl {
+.offer--ttl {
   color: var(--WHITE, #fff);
   text-align: center;
 
@@ -75,12 +75,19 @@ a {
   letter-spacing: 0.02em;
 }
 
-.button {
+.btn {
   color: var(--WHITE, #fff);
 
   /* Button Text */
   font-weight: 500;
   letter-spacing: 0.04em;
+  background: var(--IRIS, #4d5ae5);
+}
+.btn:hover {
+  background-color: var(--OCEAN, #404bbf);
+}
+.btn:focus {
+  background-color: var(--OCEAN, #404bbf);
 }
 
 .section-title {
@@ -99,7 +106,7 @@ a {
 }
 
 .team-card {
-  background-color: #ffffff;
+  background-color: var(--WHITE, #fff);
 }
 
 .header-3 {
