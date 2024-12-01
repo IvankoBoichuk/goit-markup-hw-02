@@ -1,6 +1,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css';
 body {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -22,17 +23,20 @@ a {
 }
 
 .logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway, Arial, Helvetica, sans-serif;
+  color: var(--NAVY-BLUE, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo span {
-  color: var(--IRIS, #4d5ae5);
+.logo-header span {
+  color: var(--IRIS, #2e2f42);
+}
+.logo-footer span {
+  color: var(--CLOUD, #f4f4fd);
 }
 
 .menu {
