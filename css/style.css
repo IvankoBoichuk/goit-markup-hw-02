@@ -80,6 +80,7 @@ a {
 
   /* Button Text */
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background: var(--IRIS, #4d5ae5);
 }
