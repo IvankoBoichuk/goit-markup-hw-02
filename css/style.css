@@ -88,9 +88,18 @@ a {
   text-align: center;
 
   /* Header 2 */
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+}
+
+.section_team {
+  background: var(--CLOUD, #f4f4fd);
+}
+
+.team-card {
+  background-color: #ffffff;
 }
 
 .header-3 {
@@ -102,7 +111,9 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
 }
