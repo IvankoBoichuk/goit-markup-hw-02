@@ -43,15 +43,21 @@ a {
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
 }
-.menu__link:active {
-  color: var(--OCEAN, #404bbf);
-}
 .menu__link:hover {
   color: var(--OCEAN, #404bbf);
 }
+.menu__link:focus {
+  color: var(--OCEAN, #404bbf);
+}
 
-.address {
+.address__link {
   color: var(--SLATE, #434455);
+}
+.address__link:hover {
+  color: var(--OCEAN, #404bbf);
+}
+.address__link:focus {
+  color: var(--OCEAN, #404bbf);
 }
 
 .section_offer {
