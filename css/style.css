@@ -9,6 +9,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
